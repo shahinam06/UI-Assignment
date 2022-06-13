@@ -1,0 +1,164 @@
+.products {
+  font-family: "Bebas Neue", cursive;
+}
+
+.support:hover {
+  background: black;
+  color: red !important;
+}
+
+.email {
+  border-radius: 20px;
+  border: none;
+  padding-left: 3%;
+  font-size: 15px;
+  width: 90%;
+}
+
+.contact:hover {
+  color: red !important;
+}
+.block {
+  width: 100%;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.jumbotron {
+  font-size: 120px;
+  font-weight: 1000;
+}
+
+.product {
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+.productdetail {
+  font-size: 15px;
+  font-weight: 700;
+}
+.quicklink {
+  width: 83px;
+  height: 30px;
+  font-size: 15px;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.productlink {
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  margin-left: -30%;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.bold {
+  font-weight: 700;
+}
+.arrow-up {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  margin: 0 0 15px 0;
+  position: absolute;
+  top: -13px;
+  right: 0;
+  margin-right: 59%;
+}
+
+.arrow-up-cord {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  margin: 0 0 15px 0;
+  position: absolute;
+  top: -13px;
+  right: 0;
+  margin-right: 87%;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.nav-padding {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.drop-padding {
+  padding-right: 0;
+}
+
+.submit {
+  position: absolute;
+  top: 40%;
+  left: 87%;
+}
+
+.chat {
+  right: 2%;
+  top: 85%;
+  position: fixed;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .col-width {
+    width: 15%;
+  }
+  .col-width1 {
+    width: 170%;
+    margin-left: 10% !important;
+  }
+  .map {
+    height: 305px !important;
+    margin-top: -13%;
+    margin-bottom: -42%;
+    margin-left: 8%;
+  }
+  .contact-details {
+    margin-left: 4%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .fa-magnifying-glass:before,
+  .fa-search:before {
+    position: absolute;
+    right: 9%;
+    cursor: pointer;
+  }
+
+  .buy {
+    position: absolute;
+    width: 157px;
+    height: 53px;
+    right: 12%;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .fa-magnifying-glass:before,
+  .fa-search:before {
+    display: none;
+  }
+
+  .buy {
+    display: none;
+  }
+}
